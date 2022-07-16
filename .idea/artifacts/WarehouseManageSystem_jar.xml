@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="WarehouseManageSystem:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/WarehouseManageSystem_jar</output-path>
+    <root id="archive" name="WarehouseManageSystem.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/WarehouseManageSystem/recourse/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="WarehouseManageSystem" />
+    </root>
+  </artifact>
+</component>

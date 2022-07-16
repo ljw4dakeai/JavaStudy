@@ -1,0 +1,9 @@
+# 项目排除路径
+/JavaSe17/src/com/ljw4dakeai/Chapter02/HomeWorkMD/
+/JavaSe17/src/com/ljw4dakeai/Chapter04/HomeWorkMD/
+/JavaSe17/src/com/ljw4dakeai/Chapter05/HomeWorkMD/
+/JavaSe17/src/com/ljw4dakeai/Chapter06/HomeWorkMD/
+/JavaSe17/src/com/ljw4dakeai/Chapter07/HomeWorkMD/
+/JavaSe17/src/com/ljw4dakeai/Chapter08/HomeWorkMD/
+/JavaSe17/src/com/ljw4dakeai/Practice716/HouseWorkMD/
+/out/

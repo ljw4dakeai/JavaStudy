@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/ljw4dakeai/Chapter04/HomeWorkMD" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/ljw4dakeai/Chapter06/HomeWorkMD" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/ljw4dakeai/Chapter05/HomeWorkMD" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/ljw4dakeai/Chapter02/HomeWorkMD" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/ljw4dakeai/Chapter07/HomeWorkMD" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/ljw4dakeai/Chapter08/HomeWorkMD" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/ljw4dakeai/Practice716/HouseWorkMD" />
+    </content>
+    <orderEntry type="jdk" jdkName="17" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

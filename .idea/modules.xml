@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DateStructure/DataStructure.iml" filepath="$PROJECT_DIR$/DateStructure/DataStructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaSe17/JavaSe17.iml" filepath="$PROJECT_DIR$/JavaSe17/JavaSe17.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WarehouseGoodsManageSystem/WarehouseGoodsManageSystem.iml" filepath="$PROJECT_DIR$/WarehouseGoodsManageSystem/WarehouseGoodsManageSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WarehouseManageSystem/WarehouseManageSystem.iml" filepath="$PROJECT_DIR$/WarehouseManageSystem/WarehouseManageSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaSe9/javaSe9.iml" filepath="$PROJECT_DIR$/javaSe9/javaSe9.iml" />
+    </modules>
+  </component>
+</project>
