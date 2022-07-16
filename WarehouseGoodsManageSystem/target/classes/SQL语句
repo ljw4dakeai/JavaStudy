@@ -1,0 +1,26 @@
+CREATE DATABASE DEPOSITIRY;
+##建立商品表
+USE DEPOSITIRY;
+CREATE TABLE GOODS(
+    No INT(10) PRIMARY KEY ,
+    Name VARCHAR(25),
+    Type VARCHAR(25),
+    Number INT(10),
+    Price FLOAT
+
+);
+##建立仓库表
+USE DEPOSITIRY;
+CREATE TABLE  DEPOSITIRYS(
+    NO INT(10) ,
+    Name VARCHAR(25) PRIMARY KEY,
+    Maxsize LONG,
+    Local VARCHAR(30)
+)
+
+##初始化仓库表
+
+USE DEPOSITIRY;
+INSERT INTO DEPOSITIRY(No, Name, Maxsize, Local) VALUE(1,食品,10000,湖北武汉)
+INSERT INTO GOODS(No, Name, Type, Number,Price) VALUE(1,泡泡糖, 食品, 1000, 0.5)
+INSERT INTO GOODS(No, Name, Type, Number,Price) VALUE(1,泡泡糖, 食品, 10000, 1.0)
