@@ -11,6 +11,9 @@ import java.util.Scanner;
  */
 public class WorkTwo {
     public static void main(String[] args) {
+        String s = " ";
+
+
         Scanner scanner = new Scanner(System.in);
         int sum = 0;
         while (true) {
