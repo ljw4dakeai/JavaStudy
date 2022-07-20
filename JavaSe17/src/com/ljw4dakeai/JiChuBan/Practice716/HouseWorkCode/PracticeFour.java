@@ -39,6 +39,7 @@ public class PracticeFour {
         System.out.println(Arrays.toString(ints));
         System.out.println(Arrays.toString(reverseArr(ints)));
         getNum(ints);
+
     }
 
     public static int[] reverseArr(int[] ints) {
@@ -70,3 +71,25 @@ public class PracticeFour {
         return flag;
     }
 }
+//
+//
+//    public static void insert() {
+//        int[] ints = new int[100];
+//        Random random = new Random();
+//        for (int i = 0; i < ints.length; ) {
+//            boolean flag = false;
+//            int value = random.nextInt(100) + 1;
+//            for (int j = 0; j < i; j++) {
+//                if (value == ints[j]) {
+//                    flag = true;
+//                    break;
+//                }
+//            }
+//            if(!flag){
+//                ints[i] = value;
+//                i ++;
+//            }
+//        }
+//        System.out.println(Arrays.toString(ints));
+//    }
+//}

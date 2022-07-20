@@ -64,6 +64,7 @@ public class StudentManager {
                 if (student.getNumber() == num) {
                     flag = true;
                     Student newStudent = input(scanner);
+                    student.setNumber(newStudent.getNumber());
                     student.setName(newStudent.getName());
                     student.setGander(newStudent.getGander());
                     student.setBirthday(newStudent.getBirthday());
