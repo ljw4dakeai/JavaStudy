@@ -15,7 +15,6 @@ import java.util.Scanner;
 public class PracticeSix {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
         while (true) {
             System.out.println("请输入数组长度!");
             int length = scanner.nextInt();
@@ -64,7 +63,6 @@ public class PracticeSix {
             }
             index = numNumberIndex;
         }
-
         return index;
     }
 
@@ -75,7 +73,6 @@ public class PracticeSix {
                 num ++;
             }
         }
-
         return num;
     }
 }

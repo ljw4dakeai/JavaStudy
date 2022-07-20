@@ -31,7 +31,7 @@ public class PracticeFour {
         int[] ints = new int[10];
         for (int i = 0; i < ints.length; ) {
             int num = random.nextInt(100) + 1;
-            if(!findNumInArr(num, ints)) {
+            if (!findNumInArr(num, ints)) {
                 ints[i] = num;
                 i++;
             }
@@ -50,20 +50,19 @@ public class PracticeFour {
         return ints;
     }
 
-    public static void getNum(int[] ints){
-        for (int i = 0, num =0; i < ints.length; i++, num ++ ) {
-            if (num % 2 == 0) {
-                System.out.print(ints[i] + " ");
-            } else {
-                System.out.println(ints[i]);
+    public static void getNum(int[] ints) {
+        for (int i = 0, num = 0; i < ints.length; i++) {
+            if (ints[i] % 2 == 0) {
+                num++;
+                System.out.print(num % 2 == 1 ? ints[i] + " " : ints[i] + "\n");
             }
         }
     }
 
-    public static boolean findNumInArr(int num, int[] ints){
+    public static boolean findNumInArr(int num, int[] ints) {
         boolean flag = false;
         for (int anInt : ints) {
-            if(anInt == num){
+            if (anInt == num) {
                 flag = true;
                 break;
             }

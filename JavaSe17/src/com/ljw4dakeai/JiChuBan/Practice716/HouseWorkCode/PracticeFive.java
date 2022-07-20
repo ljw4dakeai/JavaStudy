@@ -12,14 +12,9 @@ package com.ljw4dakeai.JiChuBan.Practice716.HouseWorkCode;
 
 public class PracticeFive {
     public static void main(String[] args) {
-        for (int i = 1, num = 1,split = 1; i <= 1000; i++, num++, split ++ ) {
-            if (i % 2 == 0 && i % 3 == 0) {
-                if (num % 5 == 0 || (split-2) % 5 ==0) {
-                    System.out.print(i + " \n");
-                } else {
-                    System.out.print(i + " ");
-
-                }
+        for (int i = 1, num = 1; i <= 1000; i++, num++) {
+            if (i %6== 0) {
+                System.out.print(num % 5 == 0 || (num - 2) % 5 == 0 ? i + " \n" : i + " ");
             }
         }
     }
