@@ -13,6 +13,7 @@
       <excludeFolder url="file://$MODULE_DIR$/src/com/ljw4dakeai/jichuban/Chapter05/HomeWorkMD" />
       <excludeFolder url="file://$MODULE_DIR$/src/com/ljw4dakeai/jichuban/Chapter09/HomeWorkMD" />
       <excludeFolder url="file://$MODULE_DIR$/src/com/ljw4dakeai/jinjieban/chapter01/HomeWorkWD" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/ljw4dakeai/jinjieban/chapter03/HomeWorkMD" />
     </content>
     <orderEntry type="jdk" jdkName="17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />

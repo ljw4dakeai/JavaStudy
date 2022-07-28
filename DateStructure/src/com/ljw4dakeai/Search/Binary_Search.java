@@ -24,18 +24,18 @@ public class Binary_Search {
 
     }
 
-    public static int binary_Search(int[] array, int left, int right, int findvalue){
+    public static int binary_Search(int[] array, int left, int right, int findValue){
         int mind = (left + right) / 2;
-        int mindvalue = array[mind];
+        int mindValue = array[mind];
 
         if (left > right){
             return -1;
         }
 
-        if (findvalue > mindvalue){
-            return binary_Search(array, mind + 1,right,findvalue);
-        }else if(findvalue < mindvalue){
-            return binary_Search(array, left, mind - 1, findvalue);
+        if (findValue > mindValue){
+            return binary_Search(array, mind + 1,right,findValue);
+        }else if(findValue < mindValue){
+            return binary_Search(array, left, mind - 1, findValue);
         }else {
             return mind;
         }
@@ -45,37 +45,31 @@ public class Binary_Search {
     //1,找到了索引值后不要马上返回；
     //2,向索引值的扫描的方向接着扫描，把该元素的所有索引值加入到一个集合ArrayList中
 
-    public static ArrayList<Integer> binary_Search_ (int[] array, int left, int right, int findvalue){
+    public static ArrayList<Integer> binary_Search_ (int[] array, int left, int right, int findValue){
         int mind = (left + right) / 2;
-        int mindvalue = array[mind];
+        int mindValue = array[mind];
 
         if (left > right){
             return new ArrayList<Integer>();
         }
 
-        if (findvalue > mindvalue){
-            return binary_Search_(array, mind + 1,right,findvalue);
-        }else if(findvalue < mindvalue){
-            return binary_Search_(array, left, mind - 1, findvalue);
+        if (findValue > mindValue){
+            return binary_Search_(array, mind + 1,right,findValue);
+        }else if(findValue < mindValue){
+            return binary_Search_(array, left, mind - 1, findValue);
         }else {
             ArrayList<Integer> resIndex =new ArrayList<Integer>();
 
             //向左
             int temp = mind - 1;
-            while (true){
-                if (temp < 0 ||  array[temp] != findvalue){
-                    break;
-                }
+            while (temp >= 0 && array[temp] == findValue) {
                 resIndex.add(temp);
                 temp -= 1;
             }
             resIndex.add(mind);
 
             temp = mind + 1;
-            while (true){
-                if (temp > array.length - 1 ||  array[temp] != findvalue){
-                    break;
-                }
+            while (temp <= array.length - 1 && array[temp] == findValue) {
                 resIndex.add(temp);
                 temp += 1;
             }
