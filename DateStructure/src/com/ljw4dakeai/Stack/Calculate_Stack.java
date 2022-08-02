@@ -206,12 +206,19 @@ class CalculateStack{
         //用于存放数据结果
         int res = 0;
         switch (oper) {
-            case '+' -> res = num1 + num2;
-            case '-' -> res = num2 - num1;
-            case '*' -> res = num1 * num2;
-            case '/' -> res = num2 / num1;
-            default -> {
-            }
+            case '+' :
+                res = num1 + num2;
+                break;
+            case '-' :
+                res = num2 - num1;
+                break;
+            case '*' :
+                res = num1 * num2;
+                break;
+            case '/' :
+                res = num2 / num1;
+                break;
+            default :
         }
         return res;
     }

@@ -7,7 +7,7 @@ object HaffmanCode{
 
   def main(args: Array[String]): Unit = {
 
-    val str: String = "i like like like java do you like a java"
+    val str: String = "i like like like java do you like a Scala"
     val bytes: Array[Byte] = str.getBytes()
 
     //对应ASKII
@@ -130,9 +130,6 @@ class Nodes extends Comparable[Nodes]{
 
     if (this.right != null) this.right.preOrder()
   }
-
-
-
 
 }
 

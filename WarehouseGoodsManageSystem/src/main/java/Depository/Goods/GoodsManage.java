@@ -2,6 +2,7 @@ package Depository.Goods;
 
 
 import Depository.MysqlRecourse;
+import org.junit.Test;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

@@ -4,6 +4,7 @@ import Depository.Goods.Goods;
 import Depository.Goods.GoodsManage;
 import Depository.Ware.Ware;
 import Depository.Ware.WareManage;
+import org.junit.Test;
 
 import java.sql.SQLException;
 import java.util.List;
