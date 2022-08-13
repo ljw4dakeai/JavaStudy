@@ -1,0 +1,63 @@
+[INFO ] -> 22/08/03 12:19:39 ** [main]  30 c.l.m.CommodityManager: 开始查看所有商品!
+[INFO ] -> 22/08/03 12:19:39 ** [main]  31 c.l.m.CommodityManager: 开始上架商品!
+[WARN ] -> 22/08/03 12:19:40 ** [main]  39 c.l.m.CommodityManager: 输入错误, 请重新输入!
+[INFO ] -> 22/08/03 12:19:41 ** [main]  34 c.l.m.CommodityManager: 开始查询所有商品!
+[INFO ] -> 22/08/03 12:19:42 ** [main]  36 c.l.m.CommodityManager: 退出系统!
+[INFO ] -> 22/08/03 14:43:05 ** [main]  30 c.l.m.CommodityManager: 开始查看所有商品!
+[INFO ] -> 22/08/03 14:43:08 ** [main]  31 c.l.m.CommodityManager: 开始上架商品!
+[INFO ] -> 22/08/03 14:43:09 ** [main]  32 c.l.m.CommodityManager: 开始下架所有商品!
+[INFO ] -> 22/08/03 14:43:10 ** [main]  33 c.l.m.CommodityManager: 开始修改所有商品!
+[INFO ] -> 22/08/03 14:43:11 ** [main]  34 c.l.m.CommodityManager: 开始查询所有商品!
+[WARN ] -> 22/08/03 14:43:16 ** [main]  39 c.l.m.CommodityManager: 输入错误, 请重新输入!
+[WARN ] -> 22/08/03 14:43:18 ** [main]  39 c.l.m.CommodityManager: 输入错误, 请重新输入!
+[WARN ] -> 22/08/03 14:43:19 ** [main]  39 c.l.m.CommodityManager: 输入错误, 请重新输入!
+[INFO ] -> 22/08/03 14:43:23 ** [main]  36 c.l.m.CommodityManager: 退出系统!
+[INFO ] -> 22/08/03 15:22:24 ** [main]  61 c.l.m.CommodityManager: 开始查看所有商品!
+[INFO ] -> 22/08/03 15:23:04 ** [main]  61 c.l.m.CommodityManager: 开始查看所有商品!
+[INFO ] -> 22/08/03 15:23:46 ** [main]  61 c.l.m.CommodityManager: 开始查看所有商品!
+[INFO ] -> 22/08/03 16:09:40 ** [main]  65 c.l.m.CommodityManager: 开始上架商品!
+[INFO ] -> 22/08/03 16:13:02 ** [main]  61 c.l.m.CommodityManager: 开始查看所有商品!
+[INFO ] -> 22/08/03 16:14:04 ** [main]  65 c.l.m.CommodityManager: 开始上架商品!
+[INFO ] -> 22/08/03 16:14:19 ** [main]  60 c.l.m.CommodityManager: 开始查看所有商品!
+[INFO ] -> 22/08/03 16:14:29 ** [main]  64 c.l.m.CommodityManager: 开始上架商品!
+[INFO ] -> 22/08/03 16:15:22 ** [main]  60 c.l.m.CommodityManager: 开始查看所有商品!
+[INFO ] -> 22/08/03 16:15:29 ** [main]  64 c.l.m.CommodityManager: 开始上架商品!
+[ERROR] -> 22/08/03 16:15:37 ** [main]  101 c.l.m.CommodityManager: 001商品已经存在!
+[ERROR] -> 22/08/03 16:15:42 ** [main]  101 c.l.m.CommodityManager: 002商品已经存在!
+[INFO ] -> 22/08/03 16:17:00 ** [main]  60 c.l.m.CommodityManager: 开始查看所有商品!
+[INFO ] -> 22/08/03 16:17:09 ** [main]  60 c.l.m.CommodityManager: 开始查看所有商品!
+[INFO ] -> 22/08/03 16:17:11 ** [main]  64 c.l.m.CommodityManager: 开始上架商品!
+[INFO ] -> 22/08/03 16:18:18 ** [main]  110 c.l.m.CommodityManager: 《python从入门到入狱》添加成功!
+[INFO ] -> 22/08/03 16:18:25 ** [main]  60 c.l.m.CommodityManager: 开始查看所有商品!
+[INFO ] -> 22/08/03 16:18:45 ** [main]  64 c.l.m.CommodityManager: 开始上架商品!
+[WARN ] -> 22/08/03 16:19:00 ** [main]  112 c.l.m.CommodityManager: 糖果专卖店不存在, 会自动创建!
+[ERROR] -> 22/08/03 16:19:29 ** [main]  150 c.l.m.CommodityManager: 你输入的商品的库存数量不正确
+[INFO ] -> 22/08/03 16:20:15 ** [main]  118 c.l.m.CommodityManager: 糖果专卖店创建成功!
+[INFO ] -> 22/08/03 16:20:15 ** [main]  119 c.l.m.CommodityManager: 口香糖添加成功!
+[ERROR] -> 22/08/03 16:24:13 ** [main]  66 c.l.m.CommodityManager: 请书如正确的整数格式
+[INFO ] -> 22/08/03 16:24:17 ** [main]  72 c.l.m.CommodityManager: 开始查看所有商品!
+[INFO ] -> 22/08/03 16:24:35 ** [main]  76 c.l.m.CommodityManager: 开始上架商品!
+[WARN ] -> 22/08/03 16:24:49 ** [main]  124 c.l.m.CommodityManager: 糖果转卖店不存在, 会自动创建!
+[INFO ] -> 22/08/03 16:25:47 ** [main]  130 c.l.m.CommodityManager: 糖果转卖店创建成功!
+[INFO ] -> 22/08/03 16:25:47 ** [main]  131 c.l.m.CommodityManager: 口香糖添加成功!
+[INFO ] -> 22/08/03 16:25:50 ** [main]  72 c.l.m.CommodityManager: 开始查看所有商品!
+[INFO ] -> 22/08/03 17:08:07 ** [main]  71 c.l.m.CommodityManager: 开始查看所有商品!
+[INFO ] -> 22/08/03 17:08:09 ** [main]  79 c.l.m.CommodityManager: 开始下架商品!
+[INFO ] -> 22/08/03 17:08:23 ** [main]  116 c.l.m.CommodityManager: 001删除成功!
+[INFO ] -> 22/08/03 17:08:27 ** [main]  71 c.l.m.CommodityManager: 开始查看所有商品!
+[INFO ] -> 22/08/03 17:08:31 ** [main]  79 c.l.m.CommodityManager: 开始下架商品!
+[ERROR] -> 22/08/03 17:08:35 ** [main]  118 c.l.m.CommodityManager: 004商品不存在!
+[INFO ] -> 22/08/03 17:08:53 ** [main]  85 c.l.m.CommodityManager: 退出系统!
+[INFO ] -> 22/08/03 17:56:24 ** [main]  83 c.l.m.CommodityManager: 开始修改商品!
+[INFO ] -> 22/08/03 17:56:41 ** [main]  112 c.l.m.CommodityManager: 开始修改商品10086
+[INFO ] -> 22/08/03 17:57:34 ** [main]  117 c.l.m.CommodityManager: 商品10086删除成功!
+[INFO ] -> 22/08/03 17:57:58 ** [main]  71 c.l.m.CommodityManager: 开始查看所有商品!
+[INFO ] -> 22/08/03 17:59:39 ** [main]  71 c.l.m.CommodityManager: 开始查看所有商品!
+[INFO ] -> 22/08/03 17:59:43 ** [main]  83 c.l.m.CommodityManager: 开始修改商品!
+[ERROR] -> 22/08/03 18:00:05 ** [main]  122 c.l.m.CommodityManager: 商店黑马图书专营不存在!
+[ERROR] -> 22/08/03 18:00:27 ** [main]  65 c.l.m.CommodityManager: 请书如正确的整数格式
+[INFO ] -> 22/08/03 18:00:30 ** [main]  71 c.l.m.CommodityManager: 开始查看所有商品!
+[INFO ] -> 22/08/03 18:10:18 ** [main]  87 c.l.m.CommodityManager: 开始查询商品!
+[INFO ] -> 22/08/03 18:10:41 ** [main]  87 c.l.m.CommodityManager: 开始查询商品!
+[ERROR] -> 22/08/03 18:10:43 ** [main]  112 c.l.m.CommodityManager: 要查询的商品 : zoujiahao不存在!
+[INFO ] -> 22/08/03 18:12:07 ** [main]  83 c.l.m.CommodityManager: 开始修改商品!

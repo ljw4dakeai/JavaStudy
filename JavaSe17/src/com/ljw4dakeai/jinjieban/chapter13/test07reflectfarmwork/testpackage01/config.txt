@@ -1,0 +1,6 @@
+Teacher->com.ljw4dakeai.jinjieban.chapter13.test07reflectfarmwork.testpackage01.Teachername->老王
+age->30
+Student->com.ljw4dakeai.jinjieban.chapter13.test07reflectfarmwork.testpackage01.Studentname->小王
+age->20
+school->黑马程序员
+sex->男

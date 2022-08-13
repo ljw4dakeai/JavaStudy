@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Students>
+    <!--完整正常标签 -->
+    <student id="'1">
+        <name>邹家豪</name>
+        <age>20</age>
+    </student>
+
+    <!-- 自闭合标签-->
+    <student id="2" name="李静雯" age="20"/>
+    <student>
+        <name>&lt;</name>
+        <age><![CDATA[
+                你世界 -> 这是一个没有被解析成标签的cData区的数据, 所有文本原样显示
+        ]]></age>
+    </student>
+
+</Students>

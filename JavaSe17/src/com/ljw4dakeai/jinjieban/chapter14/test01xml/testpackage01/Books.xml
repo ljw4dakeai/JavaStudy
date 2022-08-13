@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE 书架 SYSTEM "ressource/Books.dtd">
+<书架>
+    <书>
+        <书名>《python 爬虫》</书名>
+        <作者>小黑子</作者>
+        <售价>99.8</售价>
+        <描述>面向监狱编程</描述>
+    </书>
+</书架>

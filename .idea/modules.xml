@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/CommodityManageSystem/CommodityManageSystem.iml" filepath="$PROJECT_DIR$/CommodityManageSystem/CommodityManageSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CommodityManageSystemFile/CommodityManageSystemFile.iml" filepath="$PROJECT_DIR$/CommodityManageSystemFile/CommodityManageSystemFile.iml" />
       <module fileurl="file://$PROJECT_DIR$/DateStructure/DataStructure.iml" filepath="$PROJECT_DIR$/DateStructure/DataStructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPatterns/DesignPatterns.iml" filepath="$PROJECT_DIR$/DesignPatterns/DesignPatterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaSe17/JavaSe17.iml" filepath="$PROJECT_DIR$/JavaSe17/JavaSe17.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaeeExample/JavaeeExample.iml" filepath="$PROJECT_DIR$/JavaeeExample/JavaeeExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/StudentManageSystem/StudentManageSystem.iml" filepath="$PROJECT_DIR$/StudentManageSystem/StudentManageSystem.iml" />
       <module fileurl="file://$PROJECT_DIR$/WarehouseGoodsManageSystem/WarehouseGoodsManageSystem.iml" filepath="$PROJECT_DIR$/WarehouseGoodsManageSystem/WarehouseGoodsManageSystem.iml" />
       <module fileurl="file://$PROJECT_DIR$/WarehouseManageSystem/WarehouseManageSystem.iml" filepath="$PROJECT_DIR$/WarehouseManageSystem/WarehouseManageSystem.iml" />

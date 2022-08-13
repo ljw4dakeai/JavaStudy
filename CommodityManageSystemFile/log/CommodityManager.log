@@ -1,0 +1,5 @@
+[INFO ] -> 22/08/09 09:54:06 ** [main]  23 c.l.m.CommodityManager: 有店铺存在,不需要初始化店铺!
+[INFO ] -> 22/08/09 09:54:06 ** [main]  80 c.l.m.CommodityManager: 店铺黑马图书专营店数据加载成功!
+[INFO ] -> 22/08/09 09:54:06 ** [main]  80 c.l.m.CommodityManager: 店铺黑马外设专卖店数据加载成功!
+[INFO ] -> 22/08/09 09:54:06 ** [main]  80 c.l.m.CommodityManager: 店铺黑马生发专营店数据加载成功!
+[INFO ] -> 22/08/09 09:54:06 ** [main]  80 c.l.m.CommodityManager: 店铺黑马糖果专卖店数据加载成功!

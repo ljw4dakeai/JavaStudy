@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <target>System.out</target>
+        <encoder>
+            <pattern>%highlight([%-5level]) -> %green(%d{yy/MM/dd HH:mm:ss}) ** [%t] %red(%L) %cyan( %c{1}): %yellow(%m%n)</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <encoder>
+            <pattern>[%-5level] -> %d{yy/MM/dd HH:mm:ss} ** [%t]  %L %c{1}: %m%n</pattern>
+            <charset>utf-8</charset>
+        </encoder>
+        <file>C:/software/code/java/JavaStudy/CommodityManageSystemFile/log/CommodityManager.log</file>
+        <rollingPolicy
+                class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>C:/software/code/java/JavaStudy/CommodityManageSystem/log/CommodityManageSystemFileTime-%d{yyyy-MM-dd}.log%i.gz</fileNamePattern>
+            <!--文件拆分大小-->
+            <maxFileSize>1MB</maxFileSize>
+        </rollingPolicy>
+    </appender>
+
+    <root level="ALL">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="FILE" />
+    </root>
+</configuration>
